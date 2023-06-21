@@ -1,0 +1,8 @@
+# bootstrap.yml 파일은 application.yml 파일보다 먼저 로딩된다.
+
+# config 서버 경로
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9999
+      name: token  # yml 파일 이름
